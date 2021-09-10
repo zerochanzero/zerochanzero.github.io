@@ -1,0 +1,43 @@
+body,
+html {
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1e1d;
+  font-family: "Superscratchy" !important;
+  /* margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100%; */
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  /* display: flex !important;
+  flex-wrap: wrap !important; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Superscratchy" !important;
+}
+
+@font-face {
+  font-family: "Superscratchy";
+  src: url("assets/superscratchy.eot"); /* IE9 Compat Modes */
+  src: url("assets/superscratchy.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("assets/superscratchy.woff") format("woff"),
+    /* Modern Browsers */ url("assets/superscratchy.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("assets/superscratchy.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}

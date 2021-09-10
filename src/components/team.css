@@ -1,0 +1,43 @@
+.circle {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  /* grid-template-rows: 21vh 21vh 21vh; */
+  grid-gap: 15px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.tick {
+  text-align: center;
+}
+.circle .tick img {
+  margin: auto;
+  width: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+#nameTag {
+  color: white;
+}
+
+@media only screen and (max-width: 961px) {
+  .circle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 21vh 21vh 21vh; */
+    grid-gap: 25px;
+  }
+  .tick {
+    text-align: center;
+  }
+  .circle .tick img {
+    margin: auto;
+    width: 50%;
+    height: 90px;
+    width: 90px;
+  }
+}

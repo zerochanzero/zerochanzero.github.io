@@ -1,0 +1,33 @@
+#imgGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#imgBox {
+  width: 50%;
+}
+
+#imgBox img {
+  height: calc(100% - (20px * 2));
+  width: calc(100% - (20px * 2));
+  margin: 20px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 961px) {
+  #imgGrid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #imgBox {
+    width: 50%;
+  }
+
+  #imgBox img {
+    height: calc(100% - (5px * 2));
+    width: calc(100% - (5px * 2));
+    margin: 5px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,223 @@
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 961px) {
+  #mintButton {
+    position: absolute;
+    width: 15.5%;
+    height: 17%;
+    top: 36%;
+    left: 39.4%;
+  }
+
+  #leftArrow {
+    cursor: pointer;
+    position: absolute;
+    width: 4.5%;
+    height: 14%;
+    top: 66%;
+    left: 39%;
+  }
+
+  #numToads {
+    position: absolute;
+    width: 8%;
+    height: 14%;
+    top: 66%;
+    left: 43.5%;
+    line-height: 200%;
+    color: #e9e1dc;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  #rightArrow {
+    cursor: pointer;
+    position: absolute;
+    width: 4.5%;
+    height: 14%;
+    top: 66%;
+    left: 51.5%;
+  }
+
+  #aboutButton {
+    cursor: pointer;
+    position: absolute;
+    width: 9%;
+    height: 24%;
+    top: 38%;
+    left: 60.5%;
+  }
+
+  #faqButton {
+    cursor: pointer;
+    position: absolute;
+    width: 10.5%;
+    height: 29%;
+    top: 61%;
+    left: 9.5%;
+  }
+
+  #discordButton {
+    cursor: pointer;
+    position: absolute;
+    width: 10.5%;
+    height: 24%;
+    top: 69%;
+    left: 22.5%;
+  }
+
+  #metamaskConnect {
+    cursor: pointer;
+    position: absolute;
+    width: 17.5%;
+    height: 33%;
+    top: 37%;
+    left: 80%;
+  }
+
+  #mintHeader {
+    position: absolute;
+    width: 17%;
+    height: 5%;
+    top: 85%;
+    left: 39.5%;
+
+    font-size: 1.5vw;
+    color: #e9e1dc;
+    text-align: center;
+  }
+
+  #mintCount {
+    position: absolute;
+    width: 17%;
+    height: 9%;
+    top: 90%;
+    left: 39.5%;
+    font-size: 2.85vw;
+    color: #e9e1dc;
+    text-align: center;
+  }
+
+  #walletAddress {
+    position: absolute;
+    width: 9.2%;
+    height: 6%;
+    top: 62.9%;
+    left: 81%;
+    font-size: 1.85vw;
+    color: #e9e1dc;
+    background-color: #5d4a2a;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  #mintButton {
+    position: absolute;
+    width: 41.5%;
+    height: 14%;
+    top: 31%;
+    left: 29.4%;
+  }
+
+  #leftArrow {
+    cursor: pointer;
+    position: absolute;
+    width: 11%;
+    height: 11%;
+    top: 54%;
+    left: 30%;
+  }
+
+  #numToads {
+    cursor: pointer;
+    position: absolute;
+    width: 20%;
+    height: 11%;
+    top: 54%;
+    left: 41%;
+    line-height: 220%;
+    text-align: center;
+    color: #e9e1dc;
+    font-size: 7vw;
+  }
+
+  #rightArrow {
+    cursor: pointer;
+    position: absolute;
+    width: 12%;
+    height: 11%;
+    top: 53%;
+    left: 61%;
+  }
+
+  #discordButton {
+    cursor: pointer;
+    position: absolute;
+    width: 24.5%;
+    height: 17%;
+    top: 69%;
+    left: 3.5%;
+  }
+
+  #metamaskConnect {
+    cursor: pointer;
+    position: absolute;
+    width: 26.5%;
+    height: 24%;
+    top: 65%;
+    left: 68%;
+  }
+
+  #walletAddress {
+    position: absolute;
+    width: 25.95%;
+    height: 3.1%;
+    top: 84.8%;
+    border-radius: 13px;
+    left: 68%;
+    background-color: #8ac163;
+    text-shadow: 1px 2px 3px #000000;
+    font-size: 4vw;
+    color: #e9e1dc;
+    text-align: center;
+    -webkit-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+
+  .fa-ethereum {
+    filter: drop-shadow(1px 2px 3px #000000);
+  }
+
+  #mintHeader {
+    position: absolute;
+    width: 35%;
+    height: 5%;
+    top: 79%;
+    left: 29.5%;
+
+    font-size: 4.5vw;
+    color: #e9e1dc;
+    text-align: center;
+    text-shadow: 1px 2px 2px #000000;
+  }
+
+  #mintCount {
+    position: absolute;
+    width: 35%;
+    height: 9%;
+    top: 83%;
+    left: 29.5%;
+
+    font-size: 7.85vw;
+    color: #e9e1dc;
+    text-align: center;
+    text-shadow: 1px 2px 3px #000000;
+  }
+}
