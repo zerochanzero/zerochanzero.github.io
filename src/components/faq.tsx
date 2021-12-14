@@ -6,11 +6,11 @@ const FAQ = (): ReactElement => {
   return (
     <Row
       id="faq"
-      className="mx-0 d-flex align-items-center justify-content-center py-5"
+      className="mx-0 d-flex align-items-center justify-content-center"
     >
       <Col sm={6}>
         <Row className="d-flex align-items-center justify-content-center">
-          <h1 style={{ fontSize: "48px" }}>CrypToadz</h1>
+          <h1 style={{ fontSize: "48px" }}>MistleToadz</h1>
           <div
             className="mt-2 px-2"
             style={{
@@ -19,33 +19,30 @@ const FAQ = (): ReactElement => {
               textAlign: "center",
             }}
           >
-            CrypToadz are small amphibious creatures that roam the swampy basin
-            of what was formerly known as Uniswamp. Unfortunately, approximately
-            six weeks ago the Evil King Gremplin descended upon Uniswamp and
-            dispatched the CrypToadz leader Colonel Floorbin, exiling him to
-            Gooch Island. Following the fall of Colonel Floorbin, the Evil King
-            Gremplin declared his divine right to rule over all CrypToadz in the
-            Metaverse. The Evil King Gremplin's first order was to rename
-            Uniswamp to GREMPLAND. The Evil King Gremplin rules over the
-            CrypToadz along with his army of Fronkz. The Toadz have been known
-            to refer to the Evil King Gremplin's reign as "THE CROAKENING". Help
-            rid the Toadz of the rule of Evil King Gremplin by choosing how many
-            to free during minting.
+            Three months ago, 6969 CrypToadz were heroically freed during a raid
+            on Grempland lead by a coalition of citizens of the metaverse.
+            Unfortunately, Evil King Gremplin was able to ultimately turn away
+            the rebel forces, and maintain his grip over the remaining Toadz.
+            The freed 6969 CrypToadz have been in hiding, meticulously planning
+            their rescue of Colonel Floorbin and remaining Toadz. Taking note
+            from George Washington, the freed Toadz have been preparing for a
+            Christmas attack on Grempland. Help the Toadz free their friends and
+            family from the rule of Evil King Gremplin by clicking claim.
           </div>
         </Row>
       </Col>
       <Col sm={4} id="imgGrid">
         <div id="imgBox">
-          <img src="401.png" alt="gremplin" />
+          <img src="4.png" alt="gremplin" />
         </div>
         <div id="imgBox">
-          <img src="76.png" alt="gremplin" />
+          <img src="3199.png" alt="gremplin" />
         </div>
         <div id="imgBox">
-          <img src="15232.png" alt="gremplin" />
+          <img src="3305.png" alt="gremplin" />
         </div>
         <div id="imgBox">
-          <img src="12221.png" alt="gremplin" />
+          <img src="6839.png" alt="gremplin" />
         </div>
       </Col>
     </Row>

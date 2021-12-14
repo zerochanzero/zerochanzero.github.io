@@ -85,7 +85,7 @@ const Team = (): ReactElement => {
             alt="CC0"
           />
         </a>
-        <div>
+        <div className="px-2">
           To the extent possible under law,
           <a rel="dct:publisher" href="https://cryptoadz.io/">
             <span property="dct:title" className="px-1">
