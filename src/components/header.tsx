@@ -254,6 +254,14 @@ const Header = (): ReactElement => {
                 <h4 className="m-0">check</h4>
               </Button>
             </Row>
+            {idToCheck != null && idToCheck !== "" && !isNaN(+idToCheck) && (
+              <Row className="w-100">
+                <img
+                  src={`https://cryptoadz.mypinata.cloud/ipfs/QmfNm2KG4J5avadkx8Uvea8KW7CFVWYPYJ82LvP8KTm6bw/${idToCheck}.png`}
+                  alt="toad"
+                />
+              </Row>
+            )}
             {isClaimed != null && (
               <Row className="w-100">
                 <Alert
@@ -359,7 +367,11 @@ const Header = (): ReactElement => {
         <div id="discordButton" />
       </a>
       <div id="metamaskConnect" onClick={connectWallet} />
-      {account !== "" && <div id="walletAddress">{account.slice(0, 9)}</div>}
+      {account !== "" ? (
+        <div id="walletAddress">{account.slice(0, 9)}</div>
+      ) : (
+        <div id="walletAddress">CONNECT</div>
+      )}
       {/* <div id="mintHeader">
         <FontAwesomeIcon id="ethLogo" icon={faEthereum} className="mr-2" />
         .069 each
